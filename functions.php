@@ -21,14 +21,8 @@ function print_number($number){
 
 }
 
-function addBasket()
-{
-
-}
 
 function processCart($products) {
-
-
     $sum = 0;
     foreach ($products as $product) {
         $count = $product['count'];
@@ -39,9 +33,6 @@ function processCart($products) {
 
     }
     echo "<br>Sum: $sum";
-
-// Перетворюємо асоціативний масив в індексований масив для повернення
-
 
 return $products;
 }
